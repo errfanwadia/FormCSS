@@ -1,0 +1,148 @@
+body {
+    font-size: small;
+    background-color: gray;
+}
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 80%;
+    background-color: white!important;
+}
+.info {
+    border-bottom: 1px dotted #ccc;
+    padding: 0 1% 1.1em 1%;
+    margin: 0 0 5px 0;
+}
+.info h2 {
+    margin: 0 0 5px 0;
+}
+.info div {
+    font-size: 95%;
+    line-height: 135%;
+}
+form {
+    padding: 20px 20px 20px 20px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+}
+form li {
+    padding: 6px 1% 9px 1%;
+}
+form li.focus {
+    background-color: #fff7c0;
+}
+form ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+label.desc {
+    font-weight: bold;
+    padding: 0 0 3px 0;
+    display: block;
+}
+form li div {
+    display: block;
+}
+input.medium {
+    width: 50%;
+}
+input.text {
+    font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
+    font-size: 100%;
+    color: #333;
+    margin: 0;
+    padding: 2px 0;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+}
+form ul:after,
+form li:after,
+form li div:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+form li span {
+    margin: 0 .3em 0 0;
+    padding: 0;
+    float: left;
+    color: #444;
+}
+form li span label {
+    margin: 0;
+    padding-top: 3px;
+    clear: both;
+    font-size: 85%;
+    line-height: 160%;
+    color: #444;
+    display: block;
+    
+}
+form span.req {
+    color: red !important;
+    padding-right: 68%;
+    float: right;
+}
+.phone {
+    text-align: center;
+}
+span.symbol {
+    font-size: 120%;
+    line-height: 135%;
+}
+.full {
+    width: 100% !important;
+}
+form li div span input.full {
+    width: 100%!important;
+}
+form li div span {
+    margin: 0;
+    padding-bottom: 12px;
+}
+.left {
+    float: left;
+    width: 50%;
+}
+form li div span input.left {
+    width: 95%!important;
+    margin: 0;
+}
+.right {
+    float: right;
+    width: 50%;
+    margin: 0px
+}
+form li div span input.right {
+    width: 98%!important;
+    margin: 0;
+}
+form li div span.right select {
+    width: 100%;
+    font-size: 120% !important;
+    margin: 2px 0 2px 0;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+}
+textarea.textarea {
+    height: 5.5em;
+    width: 293px;
+    min-width: 100%;
+    max-width: 100%;
+    border-top: 1px solid #7c7c7c;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+}
+.button {
+    position: relative;
+    clear: both;
+    padding: 10px 1% 10px 1%;
+}
